@@ -20,5 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::get('/', function () {
-    return dd("hello world2");
+ feature/ConfigurarRota
+    return dd("hello world Rota");
+ release/1.1.0
 });
